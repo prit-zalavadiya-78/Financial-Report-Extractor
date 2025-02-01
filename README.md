@@ -98,10 +98,11 @@ This prompt is passed to the Gemini AI model along with the PDF content to produ
 
 ```
 financial-report-extractor
-├── app.py                # Main Flask application
-├── templates
-│   └── index.html        # Frontend HTML file
-└── README.md             # Project documentation
+└── Code
+    ├── app.py                # Main Flask application
+    └── templates
+        └── index.html        # Frontend HTML file
+└── README.md                 # Project documentation
 ```
 
 ## Future Improvements
