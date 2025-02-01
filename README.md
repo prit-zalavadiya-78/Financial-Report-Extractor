@@ -86,10 +86,10 @@ Manually extracting financial data from PDF reports is tedious and error-prone. 
 To ensure 100% accurate output, the following prompt is used when generating the content
 
 ```python
-Extract the company's name and only current quarter's financial results (RevenueSales, Operating Profit(Profit before tax), Net Profit, Time period of extracted data, Consolidated and Standalone, Unit) 
+""" Extract the company's name and only current quarter's financial results (RevenueSales, Operating Profit(Profit before tax), Net Profit, Time period of extracted data, Consolidated and Standalone, Unit) 
 from the report and format them as a clean HTML output. 
 Ensure the company's name is displayed as a heading, followed by a properly formatted table with financial data. 
-Do NOT add any extra text, explanations, or irrelevant details.
+Do NOT add any extra text, explanations, or irrelevant details. """
 ```
 
 This prompt is passed to the Gemini AI model along with the PDF content to produce the structured output.
