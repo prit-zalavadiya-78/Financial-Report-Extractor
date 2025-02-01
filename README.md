@@ -43,7 +43,7 @@ Manually extracting financial data from PDF reports is tedious and error-prone. 
 1. Clone the Repository
 
    ```bash
-   git clone httpsgithub.comprit-zalavadiya-78financial-report-extractor.git
+   git clone https:\\github.com\prit-zalavadiya-78\financial-report-extractor.git
    cd financial-report-extractor
    ```
 
@@ -73,7 +73,7 @@ Manually extracting financial data from PDF reports is tedious and error-prone. 
 
 2. Open the Web Interface
 
-   Navigate to [http127.0.0.15000](http127.0.0.15000) in your browser.
+   Navigate to [http:\\127.0.0.15000](http:\\127.0.0.15000) in your browser.
 
 3. Process a PDF
 
